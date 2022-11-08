@@ -1,0 +1,4 @@
+class QuadraticEquation {
+    a
+    b
+}
