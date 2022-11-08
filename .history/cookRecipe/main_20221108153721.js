@@ -12,21 +12,21 @@ let recipe = {
 
 };
 
-let {title, servings,ingredients} = recipe;
+let {title, servings,ingredients}
 
-console.log('Tên món ăn: ' + title);
+console.log('Tên món ăn: ' + recipe.title);
 
 
-console.log('Khẩu phần ăn: : ' + servings);
+console.log('Khẩu phần ăn: : ' + recipe.servings);
 
 
 console.log('Thành phần: ');
 
 
-for (var i = 0; i < ingredients.length; i++) {
+for (var i = 0; i < recipe.ingredients.length; i++) {
 
 
-    console.log('- ' + ingredients[i]);
+    console.log('- ' + recipe.ingredients[i]);
 
 
 }

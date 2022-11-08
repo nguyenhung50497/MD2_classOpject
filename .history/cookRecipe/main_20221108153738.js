@@ -26,7 +26,7 @@ console.log('Thành phần: ');
 for (var i = 0; i < ingredients.length; i++) {
 
 
-    console.log('- ' + ingredients[i]);
+    console.log('- ' + recipe.ingredients[i]);
 
 
 }

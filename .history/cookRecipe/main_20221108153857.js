@@ -30,3 +30,5 @@ for (var i = 0; i < ingredients.length; i++) {
 
 
 }
+
+ingredients.forEach(IDBCursorWithValue)
